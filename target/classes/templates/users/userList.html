@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Felece Final</title>
+</head>
+<body>
+<h1>User List</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Role</th>
+        <th>Todos</th>
+    </tr>
+    <tr th:each="user : ${users}">
+        <th th:text="${user.username}"></th>
+        <th th:text="${user.password}"></th>
+        <th th:text="${user.status}"></th>
+        <th th:text="${user.role}"></th>
+        <th th:text="${user.ToDos}"></th>
+    </tr>
+</table>
+
+
+</body>
+</html>

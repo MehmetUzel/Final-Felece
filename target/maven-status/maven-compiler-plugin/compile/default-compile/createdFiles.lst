@@ -1,0 +1,6 @@
+com\example\demo\repositories\UserRepository.class
+com\example\demo\MehmetApplication.class
+com\example\demo\bootstrap\BootStrapData.class
+com\example\demo\domain\User.class
+com\example\demo\repositories\ToDoRepository.class
+com\example\demo\domain\ToDo.class

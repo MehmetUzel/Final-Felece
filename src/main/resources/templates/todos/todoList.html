@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Felece Final</title>
+</head>
+<body>
+<h1>To Do List</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Status</th>
+        <th>Date</th>
+        <th>User</th>
+    </tr>
+    <tr th:each="todo : ${todos}">
+        <th th:text="${todo.id}"></th>
+        <th th:text="${todo.title}"></th>
+        <th th:text="${todo.status}"></th>
+        <th th:text="${todo.date}"></th>
+        <th th:text="${todo.user_id}"></th>
+    </tr>
+</table>
+
+<a href="/users">users</a>
+
+</body>
+</html>
