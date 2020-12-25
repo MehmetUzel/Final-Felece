@@ -4,7 +4,7 @@ Final Project For Felece
 <a href="https://felece-final.herokuapp.com/">Heroku</a>
 
 
-Herokuya deploy etmeye çalışırken bu hatayı aldım ancak çözmedim zamandım da doldu, sağlık olsun :)
+Herokuya deploy etmeye çalışırken bu hatayı aldım ancak çözmedim zamanım da doldu, sağlık olsun :)
 
 [INFO] ------------------------------------------------------------------------
        [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project final: Fatal error compiling: invalid target release: 11 -> [Help 1]
